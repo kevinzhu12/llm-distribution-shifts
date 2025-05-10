@@ -1,0 +1,100 @@
+Starting TinyLlama evaluation
+🔹 Loading TinyLlama-1.1B base …
+Loading TinyLlama-1.1B base model...
+Base model loaded.
+🔹 Loading LoRA adapter …
+Loading LoRA adapter...
+LoRA adapter loaded.
+
+🚀 Evaluating BASE model …
+Evaluating BASE model on GSM8K...
+Starting evaluation: 1319 examples, batch size 8
+Progress: 50/1319 examples evaluated. Current accuracy: 0.0000
+Progress: 100/1319 examples evaluated. Current accuracy: 0.0200
+Progress: 150/1319 examples evaluated. Current accuracy: 0.0133
+Progress: 200/1319 examples evaluated. Current accuracy: 0.0100
+Progress: 250/1319 examples evaluated. Current accuracy: 0.0200
+Progress: 300/1319 examples evaluated. Current accuracy: 0.0200
+Progress: 350/1319 examples evaluated. Current accuracy: 0.0200
+Progress: 400/1319 examples evaluated. Current accuracy: 0.0200
+Progress: 450/1319 examples evaluated. Current accuracy: 0.0244
+Progress: 500/1319 examples evaluated. Current accuracy: 0.0220
+Progress: 550/1319 examples evaluated. Current accuracy: 0.0200
+Progress: 600/1319 examples evaluated. Current accuracy: 0.0200
+Progress: 650/1319 examples evaluated. Current accuracy: 0.0185
+Progress: 700/1319 examples evaluated. Current accuracy: 0.0214
+Progress: 750/1319 examples evaluated. Current accuracy: 0.0213
+Progress: 800/1319 examples evaluated. Current accuracy: 0.0225
+Progress: 850/1319 examples evaluated. Current accuracy: 0.0259
+Progress: 900/1319 examples evaluated. Current accuracy: 0.0244
+Progress: 950/1319 examples evaluated. Current accuracy: 0.0253
+Progress: 1000/1319 examples evaluated. Current accuracy: 0.0260
+Progress: 1050/1319 examples evaluated. Current accuracy: 0.0248
+Progress: 1100/1319 examples evaluated. Current accuracy: 0.0245
+Progress: 1150/1319 examples evaluated. Current accuracy: 0.0235
+Progress: 1200/1319 examples evaluated. Current accuracy: 0.0250
+Progress: 1250/1319 examples evaluated. Current accuracy: 0.0248
+Progress: 1300/1319 examples evaluated. Current accuracy: 0.0246
+Progress: 1319/1319 examples evaluated. Current accuracy: 0.0243
+Finished evaluation: 32/1319 correct. Final accuracy: 0.0243
+BASE model GSM8K accuracy: 0.0243
+Evaluating BASE model on SVAMP...
+Starting evaluation: 300 examples, batch size 8
+Progress: 50/300 examples evaluated. Current accuracy: 0.0800
+Progress: 100/300 examples evaluated. Current accuracy: 0.0600
+Progress: 150/300 examples evaluated. Current accuracy: 0.0600
+Progress: 200/300 examples evaluated. Current accuracy: 0.0650
+Progress: 250/300 examples evaluated. Current accuracy: 0.0600
+Progress: 300/300 examples evaluated. Current accuracy: 0.0733
+Finished evaluation: 22/300 correct. Final accuracy: 0.0733
+BASE model SVAMP accuracy: 0.0733
+
+🚀 Evaluating LoRA-FINETUNED model …
+Evaluating LoRA-FINETUNED model on GSM8K...
+Starting evaluation: 1319 examples, batch size 8
+Progress: 50/1319 examples evaluated. Current accuracy: 0.0000
+Progress: 100/1319 examples evaluated. Current accuracy: 0.0100
+Progress: 150/1319 examples evaluated. Current accuracy: 0.0467
+Progress: 200/1319 examples evaluated. Current accuracy: 0.0350
+Progress: 250/1319 examples evaluated. Current accuracy: 0.0320
+Progress: 300/1319 examples evaluated. Current accuracy: 0.0400
+Progress: 350/1319 examples evaluated. Current accuracy: 0.0343
+Progress: 400/1319 examples evaluated. Current accuracy: 0.0325
+Progress: 450/1319 examples evaluated. Current accuracy: 0.0311
+Progress: 500/1319 examples evaluated. Current accuracy: 0.0300
+Progress: 550/1319 examples evaluated. Current accuracy: 0.0291
+Progress: 600/1319 examples evaluated. Current accuracy: 0.0300
+Progress: 650/1319 examples evaluated. Current accuracy: 0.0308
+Progress: 700/1319 examples evaluated. Current accuracy: 0.0329
+Progress: 750/1319 examples evaluated. Current accuracy: 0.0320
+Progress: 800/1319 examples evaluated. Current accuracy: 0.0312
+Progress: 850/1319 examples evaluated. Current accuracy: 0.0306
+Progress: 900/1319 examples evaluated. Current accuracy: 0.0311
+Progress: 950/1319 examples evaluated. Current accuracy: 0.0305
+Progress: 1000/1319 examples evaluated. Current accuracy: 0.0300
+Progress: 1050/1319 examples evaluated. Current accuracy: 0.0305
+Progress: 1100/1319 examples evaluated. Current accuracy: 0.0300
+Progress: 1150/1319 examples evaluated. Current accuracy: 0.0304
+Progress: 1200/1319 examples evaluated. Current accuracy: 0.0308
+Progress: 1250/1319 examples evaluated. Current accuracy: 0.0328
+Progress: 1300/1319 examples evaluated. Current accuracy: 0.0338
+Progress: 1319/1319 examples evaluated. Current accuracy: 0.0349
+Finished evaluation: 46/1319 correct. Final accuracy: 0.0349
+LoRA-FINETUNED model GSM8K accuracy: 0.0349
+Evaluating LoRA-FINETUNED model on SVAMP...
+Starting evaluation: 300 examples, batch size 8
+Progress: 50/300 examples evaluated. Current accuracy: 0.0600
+Progress: 100/300 examples evaluated. Current accuracy: 0.0900
+Progress: 150/300 examples evaluated. Current accuracy: 0.0933
+Progress: 200/300 examples evaluated. Current accuracy: 0.0900
+Progress: 250/300 examples evaluated. Current accuracy: 0.0920
+Progress: 300/300 examples evaluated. Current accuracy: 0.1000
+Finished evaluation: 30/300 correct. Final accuracy: 0.1000
+LoRA-FINETUNED model SVAMP accuracy: 0.1000
+
+════════════ ACCURACY ════════════
+Model           |   GSM8K |   SVAMP
+---------------------------------
+BASE            |   2.43% |   7.33%
+LoRA-FT         |   3.49% |  10.00%
+Finished evaluation

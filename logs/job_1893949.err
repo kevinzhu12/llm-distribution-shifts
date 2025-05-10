@@ -1,0 +1,6 @@
+/bin/bash: /mnt/xfs/home/kbzhu/conda_envs/mosaic/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+Traceback (most recent call last):
+  File "/mnt/xfs/home/kbzhu/llm-finetuning/scripts/full_ft_qwen3-0.6B_gsm8k.py", line 33, in <module>
+    torch_dtype=torch.float16,  # Use fp16 instead of 4-bit quantization
+                ^^^^^
+NameError: name 'torch' is not defined

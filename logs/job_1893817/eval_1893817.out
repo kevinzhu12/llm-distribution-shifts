@@ -1,0 +1,7 @@
+Starting TinyLlama evaluation
+🔹 Loading TinyLlama-1.1B base …
+🔹 Loading LoRA adapter …
+
+🚀 Evaluating BASE model …
+
+🚀 Evaluating LoRA-FINETUNED model …

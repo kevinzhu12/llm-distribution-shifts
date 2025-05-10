@@ -1,0 +1,16 @@
+/bin/bash: /mnt/xfs/home/kbzhu/miniconda3/envs/mosaic/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+ERROR: Unable to locate a modulefile for 'cuda/12.1'
+
+EnvironmentNameNotFound: Could not find conda environment: llm
+You can list all discoverable environments with `conda info --envs`.
+
+
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 99281.72 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 166020.08 examples/s]
+Map:   0%|          | 0/7473 [00:00<?, ? examples/s]Map:  36%|███▌      | 2694/7473 [00:00<00:00, 26784.66 examples/s]Map:  74%|███████▍  | 5516/7473 [00:00<00:00, 27619.14 examples/s]Map: 100%|██████████| 7473/7473 [00:00<00:00, 16162.97 examples/s]
+Map:   0%|          | 0/7473 [00:00<?, ? examples/s]Map:  13%|█▎        | 1000/7473 [00:00<00:02, 2558.89 examples/s]Map:  27%|██▋       | 2000/7473 [00:00<00:01, 2740.07 examples/s]Map:  40%|████      | 3000/7473 [00:01<00:01, 2810.82 examples/s]Map:  54%|█████▎    | 4000/7473 [00:01<00:01, 2815.09 examples/s]Map:  67%|██████▋   | 5000/7473 [00:01<00:00, 2752.09 examples/s]Map:  80%|████████  | 6000/7473 [00:02<00:00, 2752.02 examples/s]Map:  94%|█████████▎| 7000/7473 [00:02<00:00, 2744.73 examples/s]Map: 100%|██████████| 7473/7473 [00:02<00:00, 2753.70 examples/s]Map: 100%|██████████| 7473/7473 [00:02<00:00, 2675.30 examples/s]
+Traceback (most recent call last):
+  File "/mnt/xfs/home/kbzhu/llm-finetuning/scripts/train_tinyllama_gsm8k.py", line 66, in <module>
+    training_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

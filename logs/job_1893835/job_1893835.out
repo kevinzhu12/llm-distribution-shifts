@@ -1,0 +1,16 @@
+Starting TinyLlama GSM8K fine-tune
+{'loss': 1.2679, 'grad_norm': 0.4212142825126648, 'learning_rate': 0.0001957831325301205, 'epoch': 0.21}
+{'loss': 0.9727, 'grad_norm': 0.4832887351512909, 'learning_rate': 0.00018072289156626507, 'epoch': 0.43}
+{'loss': 0.9357, 'grad_norm': 0.40756142139434814, 'learning_rate': 0.00016566265060240963, 'epoch': 0.64}
+{'loss': 0.9263, 'grad_norm': 0.4364490211009979, 'learning_rate': 0.00015060240963855423, 'epoch': 0.86}
+{'loss': 0.9135, 'grad_norm': 0.4373404085636139, 'learning_rate': 0.0001355421686746988, 'epoch': 1.07}
+{'loss': 0.8846, 'grad_norm': 0.45117509365081787, 'learning_rate': 0.0001204819277108434, 'epoch': 1.29}
+{'loss': 0.8716, 'grad_norm': 0.44099459052085876, 'learning_rate': 0.00010542168674698796, 'epoch': 1.5}
+{'loss': 0.8688, 'grad_norm': 0.46706515550613403, 'learning_rate': 9.036144578313253e-05, 'epoch': 1.71}
+{'loss': 0.8653, 'grad_norm': 0.4114091396331787, 'learning_rate': 7.530120481927712e-05, 'epoch': 1.93}
+{'loss': 0.864, 'grad_norm': 0.5454447865486145, 'learning_rate': 6.02409638554217e-05, 'epoch': 2.15}
+{'loss': 0.8361, 'grad_norm': 0.5143194794654846, 'learning_rate': 4.5180722891566266e-05, 'epoch': 2.36}
+{'loss': 0.8326, 'grad_norm': 0.4698237478733063, 'learning_rate': 3.012048192771085e-05, 'epoch': 2.57}
+{'loss': 0.8275, 'grad_norm': 0.5168970227241516, 'learning_rate': 1.5060240963855424e-05, 'epoch': 2.79}
+{'train_runtime': 2576.731, 'train_samples_per_second': 8.701, 'train_steps_per_second': 0.271, 'train_loss': 0.9064139119204192, 'epoch': 3.0}
+Finished

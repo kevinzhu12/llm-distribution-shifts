@@ -1,0 +1,8 @@
+/bin/bash: /mnt/xfs/home/kbzhu/miniconda3/envs/mosaic/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+ERROR: Unable to locate a modulefile for 'cuda/12.1'
+
+EnvironmentNameNotFound: Could not find conda environment: llm
+You can list all discoverable environments with `conda info --envs`.
+
+
+slurmstepd: error: *** JOB 1893817 ON deep-chungus-1 CANCELLED AT 2025-05-02T02:17:29 DUE TO TIME LIMIT ***

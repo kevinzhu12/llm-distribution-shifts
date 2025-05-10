@@ -1,0 +1,23 @@
+Starting qwen3-0.6B GSM8K fine-tune
+Loading tokenizer...
+Loading model in fp16...
+Loading GSM8K dataset...
+Tokenizing dataset...
+Starting training...
+{'loss': 12580.9375, 'grad_norm': nan, 'learning_rate': 9.789156626506024e-06, 'epoch': 0.21}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 9.036144578313254e-06, 'epoch': 0.43}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 8.283132530120482e-06, 'epoch': 0.64}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 7.530120481927712e-06, 'epoch': 0.86}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 6.77710843373494e-06, 'epoch': 1.07}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 6.02409638554217e-06, 'epoch': 1.29}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 5.271084337349398e-06, 'epoch': 1.5}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 4.518072289156627e-06, 'epoch': 1.71}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 3.765060240963856e-06, 'epoch': 1.93}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 3.012048192771085e-06, 'epoch': 2.15}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 2.2590361445783136e-06, 'epoch': 2.36}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 1.5060240963855425e-06, 'epoch': 2.57}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 7.530120481927713e-07, 'epoch': 2.79}
+{'train_runtime': 2075.9623, 'train_samples_per_second': 10.799, 'train_steps_per_second': 0.337, 'train_loss': 899.9239985693848, 'epoch': 3.0}
+Saving model and tokenizer...
+Done!
+Finished
